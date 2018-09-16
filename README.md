@@ -1,1 +1,1 @@
-# It's 2018 summer term [CS224N](http://web.stanford.edu/class/cs224n/) assignment code.
+# It's 2018 spring term [CS224N](http://web.stanford.edu/class/cs224n/) assignment code.
