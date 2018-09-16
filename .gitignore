@@ -1,6 +1,6 @@
 *.pyc
 *.txt
 *.conll
-.result/*
+.results/*
 *.zip
 .__pycache__/*
