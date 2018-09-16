@@ -88,7 +88,7 @@ class SequencePredictor(Model):
         x = self.inputs_placeholder
         ### YOUR CODE HERE (~2-3 lines)
         outputs, hidden_state = tf.nn.dynamic_rnn(cell, x, initial_state=tf.zeros(shape=(tf.shape(self.inputs_placeholder)[0],cell.state_size), dtype=tf.float32))
-        preds = tf.sigmoid(tf.reduce_sum(hidden_state, 1))
+        preds = tf.sigmoid(hidden_state)
         ### END YOUR CODE
 
         return preds #state # preds
